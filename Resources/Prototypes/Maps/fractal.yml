@@ -17,7 +17,7 @@
         - type: StationEmergencyShuttle
           emergencyShuttlePath: /Maps/Shuttles/emergency_lox.yml
         - type: StationJobs
-          availableJobs: # 60 jobs total w/o latejoins & interns, 77 jobs total w/ latejoins & interns
+          availableJobs: # 56 jobs total w/o latejoins, 61 jobs total w/ latejoins
             #command (7)
             Captain: [ 1, 1 ]
             #service
@@ -25,36 +25,36 @@
             Bartender: [ 1, 2 ]
             Botanist: [ 2, 2 ]
             Chef: [ 2, 2 ]
-            Janitor: [ 2, 2 ]
+            Janitor: [ 1, 2 ]
             Chaplain: [ 1, 1 ]
             Librarian: [ 1, 1 ]
             ServiceWorker: [ 2, 2 ]
             #engineering
             ChiefEngineer: [ 1, 1 ]
             SeniorEngineer: [ 1, 1 ] #CD Role
-            AtmosphericTechnician: [ 3, 3 ]
-            StationEngineer: [ 4, 4 ] #CD change from 3-3 to 4-4.
+            AtmosphericTechnician: [ 2, 3 ]
+            StationEngineer: [ 4, 4 ] 
             # TechnicalAssistant: [ 2, 2 ] #CD disabled.
             #medical
             ChiefMedicalOfficer: [ 1, 1 ]
             SeniorPhysician: [ 1, 1 ] #CD Role
-            Chemist: [ 2, 2 ] #CD change from 3 to 2.
-            MedicalDoctor: [ 4, 4 ] #CD change from 3-3 to 4-4.
+            Chemist: [ 2, 2 ] 
+            MedicalDoctor: [ 3, 3 ] 
             Paramedic: [ 1, 1 ]
             # MedicalIntern: [ 2, 2 ] #CD disabled.
             #science
             ResearchDirector: [ 1, 1 ]
             SeniorResearcher: [ 1, 1 ] #CD Role
-            Scientist: [ 5, 5 ] #CD change from 4-4 to 5-5.
+            Scientist: [ 4, 4 ] 
             # ResearchAssistant: [ 2, 2 ] #CD disabled.
             #security
             HeadOfSecurity: [ 1, 1 ]
             Warden: [ 1, 1 ]
             SeniorOfficer: [ 1, 1 ] #CD Role
-            SecurityOfficer: [ 4, 4 ] #CD change from 3-3 to 4-4.
+            SecurityOfficer: [ 4, 4 ] 
             Detective: [ 1, 1 ]
             # SecurityCadet: [ 2, 2 ] #CD disabled.
-            Lawyer: [ 2, 2 ]
+            # Lawyer: [ 1, 1 ] #the space for a lawyer doesn't exist (yet) on this map
             #supply
             Quartermaster: [ 1, 1 ]
             SalvageSpecialist: [ 3, 3 ]
@@ -64,7 +64,7 @@
             Clown: [ 1, 1 ]
             Mime: [ 1, 1 ]
             Musician: [ 1, 1 ]
-            Reporter: [ 2, 2 ]
+            # Reporter: [ 2, 2 ] #the space for a reporter doesn't exist (yet) on this map
             #silicon
             StationAi: [ 1, 1 ]
             Borg: [ 2, 2 ]
